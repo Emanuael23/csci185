@@ -3,3 +3,11 @@ body {
 }
 
 /* Your code here */
+header {background-color: orangered;
+padding:30px}
+
+main > section {
+    border : solid 1px black;
+    display: inline-block;
+    margin: 30px;
+}
