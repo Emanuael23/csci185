@@ -2,11 +2,20 @@ body {
     margin: 0;
 }
 
+main {font-weight:bold;}
+footer {font-weight: bold;}
+.p {font-family: 'Courier New', Courier, monospace,}
+
+main {padding: 60px 15vw;}
+
 header {
     background-color: #45425a;
     color: white;
-    padding: 20px;
+    padding: 20px 35vw;
 }
+#card1, #card3, #card5 {background-color: #EEEEEE;}
+
+#card2, #card4, #card6 {background-color: #BCE5D6;}
 
 footer {
     background-color: #EEE;
