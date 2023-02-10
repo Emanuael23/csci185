@@ -12,3 +12,20 @@ p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+li {<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Unbounded:wght@600;900&display=swap" rel="stylesheet">}
+    body {
+        font-family:'Titan One';
+        margin: 0;
+    }
+section {background-color: rgb(180, 73, 73);
+    font-weight: bold;
+
+} 
+body {background-color:rgb(219, 130, 98);
+} 
+h1{padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;} 

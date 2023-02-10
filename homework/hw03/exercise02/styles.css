@@ -13,8 +13,9 @@ header {
     color: white;
     padding: 20px 35vw;
 }
-#card1, #card3, #card5 {background-color: #EEEEEE;}
-
+#card1, #card3, #card5 {background-color: #EEEEEE;
+}
+img {border-radius: 50%;}
 #card2, #card4, #card6 {background-color: #BCE5D6;}
 
 footer {
