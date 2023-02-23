@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Unbounded:wght@600;900&display=swap');
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,7 +14,7 @@ h1, h2 {<link rel="preconnect" href="https://fonts.googleapis.com">
 }
 
 body {
-    font-family:'Titan One', cursive;
+    font-family: 'Unbounded', cursive;
     margin: 0;
 }
 

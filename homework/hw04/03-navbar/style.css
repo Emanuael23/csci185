@@ -21,7 +21,9 @@ body {
     margin: 0;
 }
 
-nav {
+nav { display: flex;
+    justify-content: space-between;
+
   background-color: rgb(107, 75, 75);
   position: fixed;
   top: 0;
@@ -34,4 +36,9 @@ nav a {
   color: #f2f2f2;
   text-decoration: none;
 }
+
+li {display:flex;
+    padding: 10px;}
+
+#bio #portfolio #contact {display: flex;}
 
