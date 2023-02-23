@@ -19,18 +19,18 @@ body {
 
 
 .item-1 , .item-3 , .item-5 {
+    
     grid-column-start: 1;
-    
     grid-column-end: 4;
-    
     grid-column: 1 / 4; 
+    background-color: grey;
   }
   
   .item-2 , .item-4 {
-    grid-column-start: 4;
-
+    grid-column-start: 3;
     grid-column-end: 6; 
-    grid-column: 4/6 ;
+    grid-column: 3/6 ;
+    background-color: grey;
   }
 .item-1 {grid-row:1}
 .item-3 {grid-row:3}

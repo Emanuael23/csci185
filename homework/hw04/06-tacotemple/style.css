@@ -2,13 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
   .card {
-
     display: grid;
-    grid-template-columns:repeat(1);
+    grid-template-columns:auto 120px;
 
     padding: 20px;
     background-color: white;
@@ -16,6 +12,17 @@ body {
     border-radius: 2px;
     column-gap: 8px;
     row-gap: 8px;
+    }
+
+    main {display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px ;
+    }
+
+    .card img{
+      width:100%;
     }
 
   
