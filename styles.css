@@ -6,104 +6,123 @@
     box-sizing: border-box;
 }
 
-body { margin: 0px;
+body {
+    margin: 0px;
     font-family: Arial, sans-serif;
-    
+
 }
 
-p, a, li { font-family:Arial, Helvetica,sans-serif;
+p,
+a,
+li {
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     font-size: 1.1em;
-    display:flex;
-    
+    display: flex;
+
 }
 
 
-li {<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Unbounded:wght@600;900&display=swap" rel="stylesheet">}
-    body {
-        font-family:'Titan One';
-        margin: 0;
-    }
-section {background-color: rgb(209, 111, 19);
+
+section {
+    background-color: rgb(209, 111, 19);
     font-weight: bold;
     text-decoration: none;
-    color:rgb(246, 246, 97);
-    
+    color: rgb(246, 246, 97);
 
-} 
-body {background-color: rgb(224, 154, 84);
-     column-width: 100%;
-     height: fit-content;
-    
-        display: grid;
-        justify-content: center;
-        grid-template-rows: repeat(4, auto);
-        column-gap: 1px;
-        row-gap: 1px;
-      
-      } 
-h1  {
+
+}
+
+body {
+    background-color: rgb(224, 154, 84);
+    column-width: 100%;
+    height: fit-content;
+    font-family: 'Titan One';
+    margin: 0;
+
+
+
+
+
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(4, auto);
+    column-gap: 1px;
+    row-gap: 1px;
+
+}
+
+h1 {
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(246, 237, 227);
-} 
+}
 
-a {padding: 10px;
+a {
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    color: white;}
+    color: white;
+}
 
 
- body header{ font-family: 'Unbounded', cursive;
-margin:0}
+body header {
+    font-family: 'Unbounded', cursive;
+    margin: 0
+}
 
-header  {background-image: url('/Images/257.JPG');
+header {
+    background-image: url('Images/257.JPG');
     background-repeat: no-repeat;
     background-position: center right;
-    background-size:cover;
-    background-attachment: fixed;}
-
-#homework {background-image: url('/Images/466.jpg');
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 
-li {list-style-type: none;
+#homework {
+    background-image: url('Images/466.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li {
+    list-style-type: none;
     font-display: center;
 }
 
-#inspiration {background-image:url('/Images/20140730_123457.jpg');
+#inspiration {
+    background-image: url('Images/20140730_123457.jpg');
     background-repeat: no-repeat;
     background-position: center right;
-    background-size:cover;
-    background-attachment: fixed;}
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-#class-exercises {background-image:url('/Images/20140730_123457.jpg');
+#class-exercises {
+    background-image: url('Images/20140730_123457.jpg');
     background-repeat: no-repeat;
     background-position: center right;
-    background-size:cover;
-    background-attachment: fixed;}
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-#test {background-image:url('/Images/20140730_123457.jpg');
+#test {
+    background-image: url('Images/20140730_123457.jpg');
     background-repeat: no-repeat;
     background-position: center right;
-    background-size:cover;
-    background-attachment: fixed;}
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-#tutorials {background-image:url('/Images/466.JPG');
+#tutorials {
+    background-image: url('Images/466.JPG');
     background-repeat: no-repeat;
     background-position: center right;
-    background-size:cover;
-    background-attachment: fixed;}
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-    @media screen and (max-width: 800px)
-    
-
-
-      
-    
+@media screen and (max-width: 800px) {}
