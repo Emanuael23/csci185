@@ -11,10 +11,14 @@ body { margin: 0px;
     
 }
 
-p, a, li {
+p, a, li { font-family:Arial, Helvetica,sans-serif;
     line-height: 1.5em;
     font-size: 1.1em;
+    display:flex;
+    
 }
+
+
 li {<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Unbounded:wght@600;900&display=swap" rel="stylesheet">}
@@ -67,6 +71,10 @@ header  {background-image: url('/Images/257.JPG');
     background-position: center right;
     background-size:cover;
     background-attachment: fixed;
+}
+
+li {list-style-type: none;
+    font-display: center;
 }
 
 #inspiration {background-image:url('/Images/20140730_123457.jpg');

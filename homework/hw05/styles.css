@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Unbounded:wght@600;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Your CSS Code Here! */
+
+
+header {
+    background-color: rgb(52, 159, 159);
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul {
+    display: flex;
+    font-display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: right;
+    padding: 10px;
+    column-gap: 10px;
+
+    font-family: 'Unbounded', cursive;
+    margin: 0
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#profile-pic {
+    border-radius: 50%; 
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    margin: 0
+}
+
+h2 {
+    font-family: 'Unbounded', cursive;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    height: 100vh;
+    column-gap: 10px;
+
+}
+
+.project-holder {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.card img {height:100% padding 20px;
+    
+}
+
+#projects {padding: 100px;
+    background-color: rgb(218, 213, 213);
+}
+
+
+.contact-details {display: grid;
+    
+    grid-template-columns:1fr 1fr ;
+    
+    }
+
+
+#name  {background-color: rgb(224, 214, 214);
+    justify-content:space-around;
+    }
+    
+    
+
+#email {background-color:rgb(224, 214, 214);
+    
+    }
+
+#message {background-color:rgb(224, 214, 214);
+    } 
+
+.row1 { padding: 20px; 
+}
+
+
+
+.row {padding:10px;}
+
+footer {
+    padding: 40px 0px;
+    background:rgb(224, 214, 214);
+    text-align: center;
+}
+
